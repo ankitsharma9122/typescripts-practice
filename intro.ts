@@ -226,4 +226,8 @@
 // NOT imp
 
 //type and interface both can be extended from each other
+
+//need to see differnce class type and interface
+
+//react-with-typescript ---> todo====> https://github.com/piyush-eon/react-typescript-taskify
 export {}
