@@ -173,6 +173,55 @@
 // let subsCourse=AdminAnkit.getUserSubsCoursesTotal
 
 
-// We cannot create an instance of an abstract class.
+// We cannot create an instance of an abstract class but you can create the instance of extended class.
 // Abstract
+// abstract class Test{
+//     constructor(name : string,roll : number){
+//     name1: name ;
+//     roll1: roll;
+//     }
+// }
+
+// class Test2 extends Test{
+//     constructor(name1:string,roll1:number,exam:string){
+//         super(name1,roll1);
+//     }
+// }
+// let test = new Test2("ankit",1,"jee");
+
+//other ways to declare array
+// const score : Array<number> = []
+// const names : Array<string> = []
+
+// genric types/Array/params/class======> all resuable
+// whatever type it will take,it will return the same type
+// function oneId<Type>(val : Type) :Type {
+//     let p=val;
+//     return p;
+// }
+// oneId(10);
+
+// function getSearchedProducts<T>(products : T[]) : T{
+//     return products[9];
+// }
+// in arrow function
+// const getSearchedProducts=<T,>(products :T[]): T =>{
+//     return products[9]; 
+// }
+
+// generic with extend keyword
+// interface Database{
+//     connection : string,
+//     username : string,
+//     password : string,
+// }
+// function otherFunction<T,U extends Database>(val : T, val2 : U) : object{
+//      return {
+//         val,val2
+//      }
+// }
+
+//2 different form as, instanceof (date wale case data type identify karne me ) 
+// interface me data type me  union --> hitesh 2nd last video
+// NOT imp
 export {}
