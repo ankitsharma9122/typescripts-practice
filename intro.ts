@@ -224,4 +224,6 @@
 //2 different form as, instanceof (date wale case data type identify karne me ) 
 // interface me data type me  union --> hitesh 2nd last video
 // NOT imp
+
+//type and interface both can be extended from each other
 export {}
